@@ -4,32 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Useless Facts</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+    <!-- Bootstrap Container -->
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 offset-md-3">
+                <!-- header text -->
                 <h2 class="text-center mb-4" id="heaer-text">Useless Facts</h2>
+                <!-- Today fact card -->
                 <div class="card mb-4" id="card">
                     <div class="card-body">
+                        <!-- Today fact header -->
                         <h5 class="card-title text-center" id="card-title-text">Today's Fact</h5>
-                        <p id="todayFact" class="card-text text-center"></p>
+                        <p id="todayFact" class="card-text text-center">
+                            <!-- Today's fact will be dynamically added here -->
+                        </p>
+                        <!-- today fact button -->
                         <div class="text-center">
                             <button id="todayBtn" class="btn btn-primary">Click for Today's Fact</button>
                         </div>
+                        <!-- today fact description -->
                         <p class="mt-2 mb-0 text-center">Clicking again won't regenerate today's fact.</p>
                     </div>
                 </div>
+                <!-- Random facts card -->
                 <div class="card" id="card">
                     <div class="card-body">
+                        <!-- Random fact header -->
                         <h5 class="card-title text-center" id="card-title-text">Random Fact</h5>
-                        <p id="randomFact" class="card-text text-center"></p>
+                        <p id="randomFact" class="card-text text-center">
+                            <!-- Random fact will be dynamically added here -->
+                        </p>
+                        <!-- Random fact button -->
                         <div class="text-center">
                             <button id="randomBtn" class="btn btn-primary">Click for Random Fact</button>
                         </div>
+                        <!-- randon fact description -->
                         <p class="mt-2 mb-0 text-center">Click again for a new random fact.</p>
                     </div>
                 </div>
@@ -39,6 +55,7 @@
 
     <!-- Java Script -->
     <script src="./js/script.js"></script>
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
